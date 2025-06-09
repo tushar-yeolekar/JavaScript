@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code to know the sign of program having +ve -ve of 0</title>
+    <script type="text/javascript">
+        function check() {
+            var value = document.getElementById('data').value;
+            //Method 1
+            //var result = Math.sign(value);
+            //Method 2
+            if(value > 0){
+                result =`${value} is Positive`;
+            }
+            else if(value < 0){
+                result =`${value} is Negative`;
+            }
+            else if(value === 0){
+                result =`${value} is Zero`;
+            }
+            else{
+                result = `${value} is NaN`;
+            }
+            document.getElementById('result').innerText = result;
+        }
+    </script>
+</head>
+<body>
+    <input type="" name="" id="data" />
+    <br/>
+    <button onclick="check()">Check</button>
+    <h1 id="result"></h1>
+</body>
+</html>

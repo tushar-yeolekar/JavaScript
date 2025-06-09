@@ -8,7 +8,7 @@ let score = 0; // Number data
 let isQuizComplete = false; // Boolean data
 
 // 3. Displaying "Hello, World!" alert
-alert("Hello, World! Welcome to our quick JavaScript tutorial, " + userName + "!");
+//alert("Hello, World! Welcome to our quick JavaScript tutorial, " + userName + "!");
 
 // 4. Using typeof keyword to display data types
 console.log("Data type of userName:", typeof userName); // String
